@@ -1,0 +1,60 @@
+Console.WriteLine("Enter your grade: ");
+
+string user_grade = Console.ReadLine().ToUpper();
+
+if (user_grade == "A")
+
+{
+
+    Console.WriteLine("Suurepärane!");
+
+}
+
+else if (user_grade == "B")
+
+{
+
+    Console.WriteLine("Väga hea!");
+
+}
+
+else if (user_grade == "C")
+
+{
+
+    Console.WriteLine("Hea!");
+
+}
+
+else if (user_grade == "D")
+
+{
+
+    Console.WriteLine("Rahuldav");
+
+}
+
+else if (user_grade == "E")
+
+{
+
+    Console.WriteLine("Kasin");
+
+}
+
+else if (user_grade == "F")
+
+{
+
+    Console.WriteLine("Puudulik");
+
+}
+
+else
+
+{
+
+    Console.WriteLine("vale väärtus");
+
+}
+
